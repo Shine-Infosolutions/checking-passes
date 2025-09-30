@@ -1,10 +1,12 @@
 const express = require("express");
-const { searchByName, searchByPassNo ,getAllPasses} = require("../controllers/searchController");
+const { universalSearch } = require("../controllers/searchController");
 
 const router = express.Router();
 
-router.get("/all", getAllPasses);
-router.get("/name/:name", searchByName);
-router.get("/passnumber/:number", searchByPassNo);
+// Example:
+// GET /passes?name=MD SIR
+// GET /passes?number=2
+// GET /passes -> returns all
+router.get("/passes", universalSearch);
 
 module.exports = router;

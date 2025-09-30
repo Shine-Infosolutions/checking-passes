@@ -1,34 +1,32 @@
 const passes = require("../data/passes.json");
 
-// Search by name
-const searchByName = (req, res) => {
-  const name = req.params.name.toLowerCase();
-  const result = passes.filter(p =>
-    p.name.toLowerCase().includes(name)
-  );
-  res.json(result);
-};
+// Universal search
+const universalSearch = (req, res) => {
+  const { name, number } = req.query; // accept query params: ?name=xyz or ?number=123
 
-// Search by pass number
-const searchByPassNo = (req, res) => {
-  const number = parseInt(req.params.number);
-  const result = passes.filter(p =>
-    p.passNumbers.includes(number)
-  );
-  res.json(result);
-};
+  let result = passes;
 
-// Get all passes with per-number status (read-only, all false)
-const getAllPasses = (req, res) => {
-  const allPasses = passes.map(p => {
-    const passNumbersStatus = p.passNumbers.map(num => ({
+  if (name) {
+    const nameLower = name.toLowerCase();
+    result = result.filter(p => p.name.toLowerCase().includes(nameLower));
+  }
+
+  if (number) {
+    const num = parseInt(number);
+    result = result.filter(p => p.passNumbers.includes(num));
+  }
+
+  // Add per-number status (read-only, all false)
+  const finalResult = result.map(p => ({
+    ...p,
+    passNumbersStatus: p.passNumbers.map(num => ({
       number: num,
-      used: false,   // always false in this read-only version
+      used: false,
       usedAt: null
-    }));
-    return { ...p, passNumbersStatus };
-  });
-  res.json(allPasses);
+    }))
+  }));
+
+  res.json(finalResult);
 };
 
-module.exports = { searchByName, searchByPassNo, getAllPasses };
+module.exports = { universalSearch };

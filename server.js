@@ -11,7 +11,7 @@ app.use(cors({
 app.use(express.json());
 
 // Routes
-app.use("/search", searchRoutes);
+app.use("/get", searchRoutes);
 
 // Default route
 app.use("/", (req, res) => {
