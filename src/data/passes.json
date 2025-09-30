@@ -1,234 +1,728 @@
 [
   {
-    "name": "MD SIR",
-    "category": "FAMILY",
-    "noOfPasses": 2,
-    "peopleCount": 8,
-    "payment": {
-      "upi": 0,
-      "cash": 0,
-      "card": 0
-    },
-    "passNumbers": [
-      1,
-      2
-    ],
-    "used": true,
-    "usedAt": "2025-09-30T08:30:11.540Z"
+    "NAME": "MD SIR",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 2,
+    "PEOPLE_COUNT": 8,
+    "UPI": "",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "1,2",
+    "Notes": ""
   },
   {
-    "name": "MD SIR",
-    "category": "COUPLE",
-    "noOfPasses": 2,
-    "peopleCount": 6,
-    "payment": {
-      "upi": 0,
-      "cash": 0,
-      "card": 0
-    },
-    "passNumbers": [
-      1,
-      11,
-      112
-    ],
-    "used": false,
-    "usedAt": null
+    "NAME": "MD SIR",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 2,
+    "PEOPLE_COUNT": 6,
+    "UPI": "",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "1,11,112",
+    "Notes": ""
   },
   {
-    "name": "YASHPAL",
-    "category": "FAMILY",
-    "noOfPasses": 1,
-    "peopleCount": 4,
-    "payment": {
-      "upi": 0,
-      "cash": 2000,
-      "card": 0
-    },
-    "passNumbers": [
-      17
-    ],
-    "used": false,
-    "usedAt": null
+    "NAME": "YASHPAL",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 4,
+    "UPI": "",
+    "CASH": "2000",
+    "CARD": "",
+    "PASS_NO": "17",
+    "Notes": ""
   },
   {
-    "name": "CMD SIR",
-    "category": "FAMILY",
-    "noOfPasses": 3,
-    "peopleCount": 12,
-    "payment": {
-      "upi": 0,
-      "cash": 0,
-      "card": 0
-    },
-    "passNumbers": [
-      19,
-      21,
-      115
-    ],
-    "used": false,
-    "usedAt": null
+    "NAME": "CMD SIR",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 3,
+    "PEOPLE_COUNT": 12,
+    "UPI": "",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "19,21,115",
+    "Notes": ""
   },
   {
-    "name": "CMD SIR",
-    "category": "COUPLE",
-    "noOfPasses": 1,
-    "peopleCount": 2,
-    "payment": {
-      "upi": 0,
-      "cash": 0,
-      "card": 0
-    },
-    "passNumbers": [
-      106
-    ],
-    "used": false,
-    "usedAt": null
+    "NAME": "CMD SIR",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "106",
+    "Notes": ""
   },
   {
-    "name": "ISHITA",
-    "category": "FAMILY",
-    "noOfPasses": 1,
-    "peopleCount": 4,
-    "payment": {
-      "upi": 2000,
-      "cash": 0,
-      "card": 0
-    },
-    "passNumbers": [
-      20
-    ],
-    "used": false,
-    "usedAt": null
+    "NAME": "ISHITA",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 4,
+    "UPI": "2000",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "20",
+    "Notes": ""
   },
   {
-    "name": "ABHISHEK JACSON",
-    "category": "FAMILY",
-    "noOfPasses": 1,
-    "peopleCount": 4,
-    "payment": {
-      "upi": 0,
-      "cash": 0,
-      "card": 0
-    },
-    "passNumbers": [
-      25
-    ],
-    "used": false,
-    "usedAt": "2025-09-30T07:53:54.412Z"
+    "NAME": "ABHISHEK JACSON",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 4,
+    "UPI": "",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "25",
+    "Notes": ""
   },
   {
-    "name": "ABHISHEK JACSON",
-    "category": "COUPLE",
-    "noOfPasses": 5,
-    "peopleCount": 10,
-    "payment": {
-      "upi": 0,
-      "cash": 0,
-      "card": 0
-    },
-    "passNumbers": [
-      3,
-      4,
-      5
-    ],
-    "used": false,
-    "usedAt": null
+    "NAME": "ABHISHEK JACSON",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 5,
+    "PEOPLE_COUNT": 10,
+    "UPI": "",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "1,2,3,4,5",
+    "Notes": ""
   },
   {
-    "name": "RAVI",
-    "category": "COUPLE",
-    "noOfPasses": 1,
-    "peopleCount": 2,
-    "payment": {
-      "upi": 0,
-      "cash": 2000,
-      "card": 0
-    },
-    "passNumbers": [
-      6
-    ],
-    "used": false,
-    "usedAt": null
+    "NAME": "RAVI",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "",
+    "CASH": "2000",
+    "CARD": "",
+    "PASS_NO": "6",
+    "Notes": ""
   },
   {
-    "name": "SWEKSHA",
-    "category": "COUPLE",
-    "noOfPasses": 1,
-    "peopleCount": 2,
-    "payment": {
-      "upi": 0,
-      "cash": 1200,
-      "card": 0
-    },
-    "passNumbers": [
-      26
-    ],
-    "used": false,
-    "usedAt": "2025-09-30T08:14:43.042Z"
+    "NAME": "SWEKSHA",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "",
+    "CASH": "1200",
+    "CARD": "",
+    "PASS_NO": "25",
+    "Notes": ""
   },
   {
-    "name": "KUNAL SIR",
-    "category": "FAMILY,COUPLE",
-    "noOfPasses": 2,
-    "peopleCount": 6,
-    "payment": {
-      "upi": 3598,
-      "cash": 0,
-      "card": 0
-    },
-    "passNumbers": [
-      3,
-      17
-    ],
-    "used": false,
-    "usedAt": null
+    "NAME": "KUNAL SIR",
+    "PASS": "FAMILY ,COUPLE",
+    "NO_OF_PASSES": 2,
+    "PEOPLE_COUNT": 6,
+    "UPI": "3598",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "3,17",
+    "Notes": ""
   },
   {
-    "name": "KUNAL SIR",
-    "category": "COUPLE",
-    "noOfPasses": 1,
-    "peopleCount": 2,
-    "payment": {
-      "upi": 1200,
-      "cash": 0,
-      "card": 0
-    },
-    "passNumbers": [
-      108
-    ],
-    "used": false,
-    "usedAt": null
+    "NAME": "KUNAL SIR",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "1200",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "108",
+    "Notes": ""
   },
   {
-    "name": "ISHITA",
-    "category": "FAMILY",
-    "noOfPasses": 1,
-    "peopleCount": 5,
-    "payment": {
-      "upi": 2800,
-      "cash": 0,
-      "card": 0
-    },
-    "passNumbers": [
-      103
-    ],
-    "used": false,
-    "usedAt": null
+    "NAME": "ISHITA",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 5,
+    "UPI": "2800",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "103",
+    "Notes": ""
   },
   {
-    "name": "ISHITA",
-    "category": "COUPLE",
-    "noOfPasses": 1,
-    "peopleCount": 2,
-    "payment": {
-      "upi": 1200,
-      "cash": 0,
-      "card": 0
-    },
-    "passNumbers": [
-      18
-    ],
-    "used": false,
-    "usedAt": null
+    "NAME": "ISHITA",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "1200",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "18",
+    "Notes": ""
+  },
+  {
+    "NAME": "SANCHITA",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 3,
+    "PEOPLE_COUNT": 10,
+    "UPI": "5000",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "101,102,24",
+    "Notes": ""
+  },
+  {
+    "NAME": "AJAY",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 4,
+    "UPI": "",
+    "CASH": "2400",
+    "CARD": "",
+    "PASS_NO": "22",
+    "Notes": ""
+  },
+  {
+    "NAME": "N/A",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 4,
+    "UPI": "",
+    "CASH": "2000",
+    "CARD": "",
+    "PASS_NO": "15",
+    "Notes": ""
+  },
+  {
+    "NAME": "ISHITA",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 4,
+    "UPI": "2500",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "14",
+    "Notes": ""
+  },
+  {
+    "NAME": "N/A",
+    "PASS": "FAMILY,COUPLE",
+    "NO_OF_PASSES": 2,
+    "PEOPLE_COUNT": 6,
+    "UPI": "3600",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "109,19",
+    "Notes": ""
+  },
+  {
+    "NAME": "N/A",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "200",
+    "CASH": "1000",
+    "CARD": "",
+    "PASS_NO": "20",
+    "Notes": ""
+  },
+  {
+    "NAME": "N/A",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 5,
+    "UPI": "2300",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "111",
+    "Notes": ""
+  },
+  {
+    "NAME": "N/A",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 4,
+    "UPI": "2300",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "104",
+    "Notes": ""
+  },
+  {
+    "NAME": "N/A",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 2,
+    "PEOPLE_COUNT": 8,
+    "UPI": "",
+    "CASH": "4800",
+    "CARD": "",
+    "PASS_NO": "1,05,108",
+    "Notes": ""
+  },
+  {
+    "NAME": "N/A",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 4,
+    "UPI": "",
+    "CASH": "2400",
+    "CARD": "",
+    "PASS_NO": "106",
+    "Notes": ""
+  },
+  {
+    "NAME": "RAHUL VARMA",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 3,
+    "PEOPLE_COUNT": 6,
+    "UPI": "3600",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "10,21,22,123",
+    "Notes": ""
+  },
+  {
+    "NAME": "SUNDRAM",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 4,
+    "UPI": "2300",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "107",
+    "Notes": ""
+  },
+  {
+    "NAME": "ARYAN",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "1200",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "104",
+    "Notes": ""
+  },
+  {
+    "NAME": "PRINCE RANA",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 3,
+    "UPI": "1800",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "21",
+    "Notes": ""
+  },
+  {
+    "NAME": "SHIVIKA",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 5,
+    "UPI": "3000",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "60",
+    "Notes": ""
+  },
+  {
+    "NAME": "MEDICAL",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 3,
+    "UPI": "",
+    "CASH": "1800",
+    "CARD": "",
+    "PASS_NO": "101",
+    "Notes": ""
+  },
+  {
+    "NAME": "SUNITA",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 2,
+    "PEOPLE_COUNT": 9,
+    "UPI": "4050",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "1,10,113",
+    "Notes": ""
+  },
+  {
+    "NAME": "N/A",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "1200",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "105",
+    "Notes": ""
+  },
+  {
+    "NAME": "NITYA",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "",
+    "CASH": "1000",
+    "CARD": "",
+    "PASS_NO": "103",
+    "Notes": ""
+  },
+  {
+    "NAME": "JANHVI",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "",
+    "CASH": "1200",
+    "CARD": "",
+    "PASS_NO": "23",
+    "Notes": ""
+  },
+  {
+    "NAME": "RAJENDRA",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "1200",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "27",
+    "Notes": ""
+  },
+  {
+    "NAME": "AKASH",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 2,
+    "PEOPLE_COUNT": 10,
+    "UPI": "5000",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "1,12,114",
+    "Notes": ""
+  },
+  {
+    "NAME": "ANKITA TRIPATHI",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "",
+    "CASH": "1200",
+    "CARD": "",
+    "PASS_NO": "107",
+    "Notes": ""
+  },
+  {
+    "NAME": "ALOK SRIVASTA",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 5,
+    "UPI": "2400",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "50",
+    "Notes": "AURA KOTAK"
+  },
+  {
+    "NAME": "ATUL SRIVASTAVA (MD SIR )",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "",
+    "CASH": "1200",
+    "CARD": "",
+    "PASS_NO": "120",
+    "Notes": "AMT DUE"
+  },
+  {
+    "NAME": "(MD SIR ) SHIKHAR SIR",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "",
+    "CASH": "1200",
+    "CARD": "",
+    "PASS_NO": "127",
+    "Notes": "AMT DUE"
+  },
+  {
+    "NAME": "RAJ  ( MD SIR )",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "",
+    "CASH": "1200",
+    "CARD": "",
+    "PASS_NO": "125",
+    "Notes": "AMT DUE"
+  },
+  {
+    "NAME": "SARA DVIDEVI",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 3,
+    "UPI": "1800",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "119",
+    "Notes": "AURA KOTAK"
+  },
+  {
+    "NAME": "SURYANSH DUBEY",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 4,
+    "UPI": "",
+    "CASH": "2000",
+    "CARD": "",
+    "PASS_NO": "150",
+    "Notes": ""
+  },
+  {
+    "NAME": "YASHPAL",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 5,
+    "PEOPLE_COUNT": 11,
+    "UPI": "",
+    "CASH": "5000",
+    "CARD": "",
+    "PASS_NO": "10,91,10,11,31,14,115",
+    "Notes": "AMT DUE"
+  },
+  {
+    "NAME": "YASHPAL",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 1,
+    "UPI": "500",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "132",
+    "Notes": ""
+  },
+  {
+    "NAME": "YASHPAL BHARTI",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "1000",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "133",
+    "Notes": ""
+  },
+  {
+    "NAME": "NEERAJ PANDEY",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 3,
+    "UPI": "1800",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "134",
+    "Notes": ""
+  },
+  {
+    "NAME": "ABHI SRIVASTAVA",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "200",
+    "CASH": "1000",
+    "CARD": "",
+    "PASS_NO": "129",
+    "Notes": ""
+  },
+  {
+    "NAME": "CMD SIR (CHANDAN JI LIU)",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 4,
+    "UPI": "",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "122",
+    "Notes": ""
+  },
+  {
+    "NAME": "ABHIJEET",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 2,
+    "PEOPLE_COUNT": 8,
+    "UPI": "4800",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "1,23,124",
+    "Notes": "AURA KOTAK"
+  },
+  {
+    "NAME": "ANU",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "1500",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "128",
+    "Notes": "AURA KOTAK"
+  },
+  {
+    "NAME": "GM SIR",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 2,
+    "PEOPLE_COUNT": 8,
+    "UPI": "",
+    "CASH": "4800",
+    "CARD": "",
+    "PASS_NO": "120,121",
+    "Notes": "AMT DUE"
+  },
+  {
+    "NAME": "SHAHI JI BY MD SIR",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "116",
+    "Notes": ""
+  },
+  {
+    "NAME": "NITISH",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "1200",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "117",
+    "Notes": ""
+  },
+  {
+    "NAME": "RIDDHIMA",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "",
+    "CASH": "1200",
+    "CARD": "",
+    "PASS_NO": "118",
+    "Notes": ""
+  },
+  {
+    "NAME": "KALPANA",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "",
+    "CASH": "1200",
+    "CARD": "",
+    "PASS_NO": "119",
+    "Notes": "AURA KOTAK"
+  },
+  {
+    "NAME": "SHAKSHAM",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 5,
+    "UPI": "3000",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "116",
+    "Notes": "AURA KOTAK"
+  },
+  {
+    "NAME": "ISHITA BY MD SIR",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "120",
+    "Notes": ""
+  },
+  {
+    "NAME": "N/A",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 4,
+    "UPI": "2400",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "117",
+    "Notes": "600+1800"
+  },
+  {
+    "NAME": "N/A",
+    "PASS": "FAMILY",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 4,
+    "UPI": "2400",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "118",
+    "Notes": "AURA KOTAK"
+  },
+  {
+    "NAME": "N/A",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 3,
+    "UPI": "1800",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "121",
+    "Notes": "AURA KOTAK"
+  },
+  {
+    "NAME": "N/A",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "1200",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "122",
+    "Notes": ""
+  },
+  {
+    "NAME": "SARITA",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 2,
+    "PEOPLE_COUNT": 4,
+    "UPI": "2400",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "1,30,131",
+    "Notes": ""
+  },
+  {
+    "NAME": "N/A",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "1200",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "124",
+    "Notes": "AURA KOTAK"
+  },
+  {
+    "NAME": "SANJAY JI",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 1,
+    "PEOPLE_COUNT": 2,
+    "UPI": "",
+    "CASH": "1000",
+    "CARD": "",
+    "PASS_NO": "50",
+    "Notes": ""
+  },
+  {
+    "NAME": "AMISHA",
+    "PASS": "COUPLE",
+    "NO_OF_PASSES": 2,
+    "PEOPLE_COUNT": 4,
+    "UPI": "3000",
+    "CASH": "",
+    "CARD": "",
+    "PASS_NO": "28,29",
+    "Notes": "AURA KOTAK"
   }
 ]
