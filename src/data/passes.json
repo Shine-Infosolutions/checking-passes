@@ -1,0 +1,198 @@
+[
+  {
+    "name": "MD SIR",
+    "category": "FAMILY",
+    "noOfPasses": 2,
+    "peopleCount": 8,
+    "payment": {
+      "upi": 0,
+      "cash": 0,
+      "card": 0
+    },
+    "passNumbers": [1, 2],
+    "used": false,
+    "usedAt": null
+  },
+  {
+    "name": "MD SIR",
+    "category": "COUPLE",
+    "noOfPasses": 2,
+    "peopleCount": 6,
+    "payment": {
+      "upi": 0,
+      "cash": 0,
+      "card": 0
+    },
+    "passNumbers": [1, 11, 112],
+    "used": false,
+    "usedAt": null
+  },
+  {
+    "name": "YASHPAL",
+    "category": "FAMILY",
+    "noOfPasses": 1,
+    "peopleCount": 4,
+    "payment": {
+      "upi": 0,
+      "cash": 2000,
+      "card": 0
+    },
+    "passNumbers": [17],
+    "used": false,
+    "usedAt": null
+  },
+  {
+    "name": "CMD SIR",
+    "category": "FAMILY",
+    "noOfPasses": 3,
+    "peopleCount": 12,
+    "payment": {
+      "upi": 0,
+      "cash": 0,
+      "card": 0
+    },
+    "passNumbers": [19, 21, 115],
+    "used": false,
+    "usedAt": null
+  },
+  {
+    "name": "CMD SIR",
+    "category": "COUPLE",
+    "noOfPasses": 1,
+    "peopleCount": 2,
+    "payment": {
+      "upi": 0,
+      "cash": 0,
+      "card": 0
+    },
+    "passNumbers": [106],
+    "used": false,
+    "usedAt": null
+  },
+  {
+    "name": "ISHITA",
+    "category": "FAMILY",
+    "noOfPasses": 1,
+    "peopleCount": 4,
+    "payment": {
+      "upi": 2000,
+      "cash": 0,
+      "card": 0
+    },
+    "passNumbers": [20],
+    "used": false,
+    "usedAt": null
+  },
+  {
+    "name": "ABHISHEK JACSON",
+    "category": "FAMILY",
+    "noOfPasses": 1,
+    "peopleCount": 4,
+    "payment": {
+      "upi": 0,
+      "cash": 0,
+      "card": 0
+    },
+    "passNumbers": [25],
+    "used": false,
+    "usedAt": null
+  },
+  {
+    "name": "ABHISHEK JACSON",
+    "category": "COUPLE",
+    "noOfPasses": 5,
+    "peopleCount": 10,
+    "payment": {
+      "upi": 0,
+      "cash": 0,
+      "card": 0
+    },
+    "passNumbers": [1, 2, 3, 4, 5],
+    "used": false,
+    "usedAt": null
+  },
+  {
+    "name": "RAVI",
+    "category": "COUPLE",
+    "noOfPasses": 1,
+    "peopleCount": 2,
+    "payment": {
+      "upi": 0,
+      "cash": 2000,
+      "card": 0
+    },
+    "passNumbers": [6],
+    "used": false,
+    "usedAt": null
+  },
+  {
+    "name": "SWEKSHA",
+    "category": "COUPLE",
+    "noOfPasses": 1,
+    "peopleCount": 2,
+    "payment": {
+      "upi": 0,
+      "cash": 1200,
+      "card": 0
+    },
+    "passNumbers": [26],
+    "used": false,
+    "usedAt": null
+  },
+  {
+    "name": "KUNAL SIR",
+    "category": "FAMILY,COUPLE",
+    "noOfPasses": 2,
+    "peopleCount": 6,
+    "payment": {
+      "upi": 3598,
+      "cash": 0,
+      "card": 0
+    },
+    "passNumbers": [3, 17],
+    "used": false,
+    "usedAt": null
+  },
+  {
+    "name": "KUNAL SIR",
+    "category": "COUPLE",
+    "noOfPasses": 1,
+    "peopleCount": 2,
+    "payment": {
+      "upi": 1200,
+      "cash": 0,
+      "card": 0
+    },
+    "passNumbers": [108],
+    "used": false,
+    "usedAt": null
+  },
+  {
+    "name": "ISHITA",
+    "category": "FAMILY",
+    "noOfPasses": 1,
+    "peopleCount": 5,
+    "payment": {
+      "upi": 2800,
+      "cash": 0,
+      "card": 0
+    },
+    "passNumbers": [103],
+    "used": false,
+    "usedAt": null
+  },
+  {
+    "name": "ISHITA",
+    "category": "COUPLE",
+    "noOfPasses": 1,
+    "peopleCount": 2,
+    "payment": {
+      "upi": 1200,
+      "cash": 0,
+      "card": 0
+    },
+    "passNumbers": [18],
+    "used": false,
+    "usedAt": null
+  }
+]
