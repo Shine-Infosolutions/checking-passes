@@ -1,22 +1,24 @@
 const passes = require("../data/passes.json");
 
-// Universal search
+// Universal search: by name OR pass number
 const universalSearch = (req, res) => {
-  const { name, number } = req.query; // accept query params: ?name=xyz or ?number=123
+  const { name, number } = req.query;
+
+  if (!name && !number) {
+    return res.status(400).json({ message: "Please provide either a name or pass number to search." });
+  }
 
   let result = passes;
 
   if (name) {
     const nameLower = name.toLowerCase();
     result = result.filter(p => p.name.toLowerCase().includes(nameLower));
-  }
-
-  if (number) {
+  } else if (number) {
     const num = parseInt(number);
     result = result.filter(p => p.passNumbers.includes(num));
   }
 
-  // Add per-number status (read-only, all false)
+  // Add per-number status (all false since this is read-only)
   const finalResult = result.map(p => ({
     ...p,
     passNumbersStatus: p.passNumbers.map(num => ({
