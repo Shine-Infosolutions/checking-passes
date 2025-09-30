@@ -28,36 +28,36 @@ const searchByPassNo = (req, res) => {
   res.json(result);
 };
 
-// Mark pass as used and store in MongoDB
 const markEntry = async (req, res) => {
-  try {
-    const number = parseInt(req.params.number);
-    let found = false;
-
-    passes.forEach(p => {
-      if (p.passNumbers.includes(number)) {
-        p.used = true;
-        p.usedAt = new Date().toISOString();
-        found = true;
-
-        // Save only this used pass to MongoDB
-        const usedPass = new UsedPass(p);
-        usedPass.save().catch(err => console.error("MongoDB save error:", err));
+    try {
+      const number = parseInt(req.params.number);
+      let found = false;
+  
+      for (const p of passes) {
+        if (p.passNumbers.includes(number)) {
+          p.used = true;
+          p.usedAt = new Date().toISOString();
+          found = true;
+  
+          // Save only this used pass to MongoDB
+          const usedPass = new UsedPass(p);
+          await usedPass.save(); // await instead of .catch
+        }
       }
-    });
-
-    if (!found) {
-      return res.status(404).json({ message: "Pass not found" });
+  
+      if (!found) {
+        return res.status(404).json({ message: "Pass not found" });
+      }
+  
+      // Overwrite JSON file
+      fs.writeFileSync(dataFilePath, JSON.stringify(passes, null, 2));
+  
+      res.json({ message: "Entry marked successfully", passes });
+    } catch (err) {
+      console.error("markEntry error:", err);
+      res.status(500).json({ message: "Server Error" });
     }
-
-    // Overwrite JSON file
-    fs.writeFileSync(dataFilePath, JSON.stringify(passes, null, 2));
-
-    res.json({ message: "Entry marked successfully", passes });
-  } catch (err) {
-    console.error(err);
-    res.status(500).json({ message: "Server Error" });
-  }
-};
+  };
+  
 
 module.exports = { searchByName, searchByPassNo, markEntry };
