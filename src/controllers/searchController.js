@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-const UsedPass = require("../models/UsedPass"); // Use your model
+const UsedPass = require("../models/usedPass"); // Use your model
 const passes = require("../data/passes.json");
 const dataFilePath = path.join(__dirname, "../data/passes.json");
 
