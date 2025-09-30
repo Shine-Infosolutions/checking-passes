@@ -1,15 +1,10 @@
 const passes = require("../data/passes.json");
 
+// Universal search: name, number, or all
 const universalSearch = (req, res) => {
   const { name, number } = req.query;
 
-  let result = passes.map(p => ({
-    ...p,
-    name: p.NAME,                          // normalize NAME
-    passNumbers: p.PASS_NO
-      ? p.PASS_NO.split(",").map(n => n.trim())
-      : []                                 // normalize PASS_NO
-  }));
+  let result = passes;
 
   if (name) {
     const nameLower = name.toLowerCase();
@@ -17,9 +12,11 @@ const universalSearch = (req, res) => {
   }
 
   if (number) {
-    result = result.filter(p => p.passNumbers.includes(number));
+    const num = parseInt(number);
+    result = result.filter(p => p.passNumbers.includes(num));
   }
 
+  // Optional: include per-number read-only status
   const finalResult = result.map(p => ({
     ...p,
     passNumbersStatus: p.passNumbers.map(num => ({
