@@ -9,7 +9,7 @@ const app = express();
 
 // Enable CORS only for your frontend
 app.use(cors({
-  origin: ["https://checking-passes.vercel.app", "http://localhost:5000"]
+  origin: ["https://checking-passes.vercel.app", "http://localhost:5000", "http://localhost:5173"]
 }));
 
 app.use(express.json());
