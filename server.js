@@ -4,7 +4,10 @@ const cors = require("cors");
 const searchRoutes = require("./src/routes/searchRoutes");
 
 const app = express();
-app.use(cors());
+// Enable CORS only for your frontend
+app.use(cors({
+    origin: ["https://checking-passes.vercel.app", "http://localhost:5000"]
+  }));
 app.use(express.json());
 
 // Routes
